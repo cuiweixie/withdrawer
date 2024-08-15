@@ -60,9 +60,11 @@ var networks = map[string]network{
 		faultProofs:        true,
 	},
 	"devnet": {
-		l2RPC:         "http://127.0.0.1:9545",
-		portalAddress: "0x6509f2a854BA7441039fCE3b959d5bAdd2fFCFCD",
-		l2OOAddress:   "0xfcF38f326CA709b0B04B2215Dbc969fC622775F7",
+		l2RPC:              "http://127.0.0.1:9545",
+		portalAddress:      "0x6509f2a854BA7441039fCE3b959d5bAdd2fFCFCD",
+		l2OOAddress:        "0xfcF38f326CA709b0B04B2215Dbc969fC622775F7",
+		disputeGameFactory: "0xD34052d665891976eE71E097EaAF03Df51e9e3d5",
+		faultProofs:        true,
 	},
 }
 
