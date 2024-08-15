@@ -59,6 +59,11 @@ var networks = map[string]network{
 		disputeGameFactory: "0x05F9613aDB30026FFd634f38e5C4dFd30a197Fa1",
 		faultProofs:        true,
 	},
+	"devnet": {
+		l2RPC:         "https://127.0.0.1:9545",
+		portalAddress: "0x6509f2a854BA7441039fCE3b959d5bAdd2fFCFCD",
+		l2OOAddress:   "0xfcF38f326CA709b0B04B2215Dbc969fC622775F7",
+	},
 }
 
 func main() {
